@@ -1,0 +1,199 @@
+/* Basislayout */
+
+html, body {
+    height: 100%;
+    padding: 0;
+    background-color:rgb(53, 52, 52);
+    
+    color: rgb(255,255,255);
+    font: Verdana, Arial, Sans-Serif;
+}
+
+
+main {
+    margin: 0 auto;
+    width: 700px;
+    position: relative;
+}
+
+
+article {
+    text-align: justify;
+}
+
+
+header {
+    color: skyblue;
+    text-align: center;
+}
+
+
+footer {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+
+/* specifieke stijlen */
+
+img.zweefLinks {
+    float: left;
+    margin-right: 15px;
+}
+
+.zweefRechts{
+   float:right;
+    margin-left:15px; 
+    text-align: right;
+}
+
+.smalltext {
+    font-size: 0.7em;
+}
+
+a {
+    color: skyblue;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+body {
+    
+}
+
+/* navigatiebalk */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(0, 0, 0, 0.233);
+    overflow: auto;
+    display: block;
+    width: 15%;
+  
+    position: fixed;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    width:85px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+     font-family: 'Alfa Slab One';font-size: 22px;
+     text-shadow:3px 4px rgb(0,0,0);
+ 
+}
+
+nav li a:hover {
+    background-color: rgb(24, 24, 24));
+    margin:auto;
+}
+
+nav li a.active {
+    background-color: rgba(0, 0, 0, 0.233);
+    margin:auto;
+    
+}
+
+
+/* Titles */
+
+#hoofdtitel{
+    color: rgb(253, 215, 0);
+    font-weight: bold;
+    background-color:rgb(253, 215, 0));
+    border: 2px solid rgb(253, 215, 0);
+    
+}
+
+/* inhoud Home */
+
+#p1-home{
+    
+    
+
+}
+
+#p2-home{
+    border-bottom:4px solid rgb(87,87,87);
+    border-top: 4px solid rgb(87, 87, 87);
+}
+
+#p3-home{
+    border-bottom:4px solid rgb(87,87,87);
+    border-top: 4px solid rgb(87, 87, 87);
+}
+
+#p4home{
+    border-bottom:4px solid rgb(87,87,87);
+    border-top: 4px solid rgb(87, 87, 87);
+}
+
+#p1-div-1-home{
+    border-bottom: 4px solid rgb(87, 87, 87);
+    border-top: 4px solid rgb(87, 87, 87);
+    background-color: #303030;
+}
+
+#underline{
+    text-decoration: underline
+
+}
+/* inhoud anime series */
+
+#p1-div-2-series{
+    
+    
+}
+.poepoe{
+    float:right;
+
+}
+/* foto's */
+
+#blue-exorcist-picture1{
+    width:35%;
+    margin-top: 10px;
+    margin-bottom:10px;
+}
+
+#one-punch-man-picture1{
+    width:35%;
+    margin-top: 10px;
+}
+
+#avatar-the-last-airbender-picture1{
+    width:35%;
+    margin-top:10px;
+}
+
+.clearfix{
+    overflow:auto;
+
+}
+/* css anime series */
+
+#p1-div-2{
+    border-bottom:4px solid rgb(87,87,87);
+    border-top: 4px solid rgb(87, 87, 87);
+}    
+#p1-div-3{
+     border-bottom:4px solid rgb(87,87,87);
+
+}
+#p1-div-4{
+     border-bottom:4px solid rgb(87,87,87);
+
+}
+#titles-anime-series{
+    
+}
